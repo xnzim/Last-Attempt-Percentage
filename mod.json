@@ -1,0 +1,40 @@
+{
+	"geode": "4.8.0",
+	"gd": {
+		"win": "2.2074",
+		"android": "2.2074",
+		"mac": "2.2074",
+		"ios": "2.2074"
+	},
+	"id": "snix.last_attempt_percentage",
+	"name": "Last Attempt %",
+	"version": "v1.1.0",
+	"developer": "Snix",
+	"description": "Displays your last attempt percentage in the corner of the screen during gameplay",
+	"settings": {
+		"show-decimals": {
+			"type": "bool",
+			"name": "Show Decimal Percentages",
+			"description": "Display percentages with 2 decimal places (e.g., 47.32%)",
+			"default": false
+		},
+		"label-position": {
+			"type": "string",
+			"name": "Display Position",
+			"description": "Choose where to display the last attempt percentage",
+			"default": "Top Right",
+			"one-of": [
+				"Top Right",
+				"Top Middle",
+				"Middle Left",
+				"Middle Right",
+				"Bottom Left",
+				"Bottom Middle",
+				"Bottom Right"
+			]
+		}
+	},
+	"dependencies": {
+		"geode.node-ids": ">=v1.20.0"
+	}
+}
