@@ -1,3 +1,6 @@
+# 1.1.1
+- Added links to mod-page
+
 # 1.1.0
 - Added customizable display positions (7 options)
 - Added decimal percentage toggle

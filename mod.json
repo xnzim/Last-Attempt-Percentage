@@ -8,9 +8,13 @@
 	},
 	"id": "snix.last_attempt_percentage",
 	"name": "Last Attempt %",
-	"version": "v1.1.0",
+	"version": "v1.1.1",
 	"developer": "Snix",
 	"description": "Displays your last attempt percentage in the corner of the screen during gameplay",
+	"links": {
+		"source": "https://github.com/xnzim/Last-Attempt-Percentage",
+		"community": "https://discord.gg/389pKvby2t"
+	},
 	"settings": {
 		"show-decimals": {
 			"type": "bool",
